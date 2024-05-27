@@ -1,0 +1,92 @@
+.magnifierimage {
+  /* display: block; */
+  width: 30vw;
+  height: 35vw;
+  border-radius: 2.6vw;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin-top: 2vw;
+}
+.Box {
+  display: flex;
+  margin-top: 4vw;
+  margin-bottom: 1vw;
+}
+.rightdata {
+  margin: 2vw;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+.price {
+  display: flex;
+  margin: 1vw;
+}
+.mrp {
+  text-decoration: line-through;
+  margin-right: 1vw;
+  color: red;
+  font-size: 1.6vw;
+}
+.cost {
+  color: green;
+}
+.offers {
+  font-size: 1vw;
+  font-weight: 50;
+  margin: 1.8vw;
+}
+.offers li {
+  margin: 1vw;
+}
+.addtocart {
+  width: 12vw;
+  height: 4vw;
+  margin: 1vw;
+  margin-left: 2vw;
+  padding: 0;
+  background-color: #ff9f00;
+}
+.buynow {
+  width: 12vw;
+  height: 4vw;
+  margin: 1vw;
+  padding: 0;
+  background-color: #fb641b;
+}
+.customlist {
+  list-style: none;
+}
+.customlist li::before {
+  content: "";
+  display: inline-block;
+  background-image: url(https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90);
+  height: 1.5vw;
+  width: 1.5vw;
+  margin-right: 0.3vw;
+  background-size: cover;
+}
+.Buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vw;
+  margin-bottom: 4vw;
+}
+.Buy button {
+  border-radius: 0.3vw;
+  border: none;
+  font-size: 1vw;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.addtocart:hover {
+  background-color: #ff9d00d1;
+}
+.buynow:hover {
+  background-color: #fb661bd8;
+}
+.leftimage {
+  margin: 3vw;
+}

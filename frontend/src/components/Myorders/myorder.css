@@ -1,0 +1,25 @@
+.boxe {
+  margin: 2vw;
+}
+.text {
+  font-size: 3vw;
+  width: auto;
+  text-align: center;
+  margin: 1vw;
+  font-weight: bold;
+}
+.status {
+  height: 3vw;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1vw 8vw;
+  font-weight: bold;
+  font-size: 2.5vw;
+}
+.screenwe {
+  display: space-around;
+  justify-content: center;
+  align-items: center;
+}

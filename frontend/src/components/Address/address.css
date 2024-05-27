@@ -1,0 +1,47 @@
+.wraptitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vw;
+  margin: 3vw;
+}
+.addresstitle {
+  font-weight: bold;
+  font-size: 3vw;
+}
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.address textarea {
+  padding: 10px;
+  line-height: 1;
+  vertical-align: top;
+  margin: 0;
+  text-align: left;
+  height: 20vw;
+  width: 50vw;
+  font-size: 2vw;
+  border-radius: 1vw;
+}
+.paynow {
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paynowbutton {
+  height: 4vw;
+  width: 10vw;
+  font-size: 1vw;
+  border-radius: 1vw;
+  border: 0;
+  font-weight: 500;
+  color: white;
+  background-color: #2cbc63;
+  cursor: pointer;
+}
+.paynowbutton:hover {
+  background-color: #077d61;
+}

@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.loginbox {
+  background: linear-gradient(
+      rgba(300, 255, 250, 0.2),
+      rgba(255, 255, 255, 0.984)
+    ),
+    url("../../../public/login_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 10vw;
+  border-radius: 1vw;
+  width: auto;
+  z-index: 990;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.credentials {
+  height: 30 vw;
+  color: #f98d05;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 3vw;
+  padding: 2vw;
+  border: 2px solid #000;
+  font-size: 2vw;
+  font-weight: bold;
+  border-radius: 4vw;
+}
+
+.credentials input {
+  margin: 1.5vw;
+  height: 2.5vw;
+  width: 20vw;
+  font-size: 1.2vw;
+  border: none;
+  border-bottom: 2px solid gray; /* Add your desired color */
+  outline: none;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.email input {
+  margin: 0;
+  margin-left: 9.8vw;
+}
+.ButtonDiv {
+  margin-top: 1vw;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.NewUser {
+  font-size: 1vw;
+}
+/* <!-- HTML !-->
+<button class="button-87" role="button">Button 87</button> */
+
+/* CSS */
+.Button {
+  margin: 1vw;
+  padding: 1vw 2vw;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(
+    45deg,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Button:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.Button:active {
+  transform: scale(0.95);
+}
+.cross {
+  position: absolute;
+  right: 0.5vw;
+  top: 0.6vw;
+  height: 2vw;
+  cursor: pointer;
+}
+.cross:hover {
+  box-shadow: 0 0 10px rgba(110, 133, 141, 0.405);
+  border-radius: 2vw;
+}
+.phoneno input {
+  margin-left: 5.6vw;
+  margin-top: auto;
+}

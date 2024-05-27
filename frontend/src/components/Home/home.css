@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.Navbar {
+  height: 4vw;
+  /* width: 5vw; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 8vw;
+}
+.Search {
+  display: flex;
+  align-items: center;
+}
+.Search input {
+  width: 40vw;
+  height: 3vw;
+  border-radius: 10px;
+  font-size: 1vw;
+  border-color: black;
+  padding-left: 20px;
+}
+.Search button {
+  height: 2.5vw;
+  width: 3vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  filter: brightness(1);
+}
+.Search button:hover {
+  margin-left: 0.2vw;
+  filter: brightness(1.1);
+  transform: scale(1.1);
+}
+.Logo img {
+  height: 9vw;
+  cursor: pointer;
+}
+.Login {
+  font-weight: bold;
+  cursor: pointer;
+}
+.Cart {
+  cursor: pointer;
+  font-weight: bold;
+}
+.LoginBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  font-size: small;
+  font-weight: 500;
+  font: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 3vw;
+  padding-bottom: 0.7vw;
+}

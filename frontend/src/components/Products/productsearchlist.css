@@ -1,0 +1,36 @@
+.productlistbox {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  width: 100%;
+  height: auto;
+}
+.prodlistimage {
+  width: 22vw;
+  height: auto;
+  margin-left: 9vw;
+  margin: 3vw;
+  border-radius: 0.6vw;
+  cursor: pointer;
+}
+.productname {
+  font-size: 1.7vw;
+  font-weight: bold;
+  margin-bottom: 0.5vw;
+}
+.middletext {
+  width: 32vw;
+  margin: 2vw;
+  cursor: pointer;
+}
+.prodprice {
+  margin-left: 25vw;
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+.price {
+  font-weight: bold;
+  font-size: 2vw;
+}
